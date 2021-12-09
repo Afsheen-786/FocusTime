@@ -13,6 +13,7 @@ const STATUES = {
 };
 
 export default function App() {
+	console.log('hey git');
 	const [ focusSubject, setFocusSubject ] = useState(null);
 	const [ focusHistory, setFocusHistory ] = useState([]);
 
